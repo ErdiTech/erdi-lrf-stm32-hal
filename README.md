@@ -58,9 +58,9 @@ The firmware example builds in CI; it has not been run on a bench with a live mo
 
 ## Related projects
 
-- [erdi-lrf-esp32-micropython](https://github.com/Tommyapi/erdi-lrf-esp32-micropython): ESP32 / RP2040 MicroPython driver
-- [erdi-lrf-home-assistant](https://github.com/Tommyapi/erdi-lrf-home-assistant): ESPHome component
-- [laser-rangefinder-module-database](https://github.com/Tommyapi/laser-rangefinder-module-database): dataset of laser rangefinder modules
+- [erdi-lrf-esp32-micropython](https://github.com/ErdiTech/erdi-lrf-esp32-micropython): ESP32 / RP2040 MicroPython driver
+- [erdi-lrf-home-assistant](https://github.com/ErdiTech/erdi-lrf-home-assistant): ESPHome component
+- [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database): dataset of laser rangefinder modules
 
 ## Support / 打赏
 
