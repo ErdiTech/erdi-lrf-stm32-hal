@@ -1,5 +1,7 @@
 # ERDI laser rangefinder driver for STM32 (HAL, circular DMA)
 
+Datasheets and public prices are on the [LRF22VB page](https://erdilrf.com/models/lrf22vb/?utm_source=github&utm_medium=readme&utm_campaign=erdi-lrf-stm32-hal) and in the [full ERDI laser rangefinder model list](https://erdilrf.com/models/?utm_source=github&utm_medium=readme&utm_campaign=erdi-lrf-stm32-hal).
+
 A small **STM32 HAL driver for ERDI 905 nm laser rangefinder modules**. It receives the module's UART stream with **circular DMA**, so there is no per-byte interrupt even at **460800 baud**, and parses frames with a dependency-free C99 core. Supports **LRF22VB, LRF50VB, LRF50H, LRF100H, LRF200H, LRF300H, LRF600H, LRF1500H** (`5C` stream) and **LR1000E2 ... LR2000E4, LRF1200A1, LRF3000A1, SPD1200N0/N2/N4** (`55 AA` polled). Use it as a **laser distance sensor driver for STM32F4 / G4 / L4 / H7** in drones, robots, AGVs, level and position measurement.
 
 - `include/erdi_lrf_core.h`: parser + model table, no HAL, host-testable
